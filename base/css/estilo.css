@@ -1,9 +1,18 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 footer {
   background-color: #1E2738;
   height: 150px;
+}
+
+.github img {
+  width: 30px;
+}
+
+.fundo {
+  background-color: white;
 }
