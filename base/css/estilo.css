@@ -24,15 +24,9 @@ padding: 10px;
   background-color: white;
 }
 
-.copyright {
-  border: solid red;
-}
-
 .label-copyright {
-  border: solid blue;
   height: 30px;
   width: fit-content;
-
 }
 
 .img-label-copyright {
@@ -58,4 +52,9 @@ padding: 10px;
   font-size: 22px;
   width: fit-content;
 
+}
+
+.label-copyright {
+  width: fit-content;
+  margin: auto;
 }
