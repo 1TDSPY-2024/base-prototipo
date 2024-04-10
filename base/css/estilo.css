@@ -11,7 +11,8 @@ footer {
 
 .github {
 width: fit-content;
- 
+text-align: center;
+padding: 10px;
 }
 
 .github img {
@@ -21,11 +22,17 @@ width: fit-content;
 .github .fundo {
   float: inline-end;
   height: 40px;
+  width: 80px;
+  justify-content: center;
+  text-align: center;
   border-radius: 5px;
+  padding:5px;
+  margin-left: 10px;
   background-color:  white;
 }
 
 .fundo p {
+ 
   color: #1E2738;
   font-size: 22px;
   width: fit-content;
