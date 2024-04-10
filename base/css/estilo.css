@@ -25,9 +25,6 @@ padding: 10px;
   background-color: white;
 }
 
-
-
-
 .github .fundo {
   float: inline-end;
   height: 40px;
@@ -46,7 +43,13 @@ padding: 10px;
   color: #1E2738;
   font-size: 22px;
   width: fit-content;
+  margin: 7px auto;
 
+}
+
+.centralizar {
+  width: fit-content;
+  margin: auto;
 }
 
 .label-copyright {
@@ -55,8 +58,12 @@ padding: 10px;
   display: inline-flex;
   float: inline-start;
 }
+
 .copyright-texto{
   background-color: white;
   text-align: center;
   align-self: center;
+  padding: 7px;
+  border-radius: 3px;
+  margin: 0px 5px;
 }
