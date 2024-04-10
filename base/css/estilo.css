@@ -13,6 +13,7 @@ footer {
 width: fit-content;
 text-align: center;
 padding: 10px;
+
 }
 
 .github img {
@@ -24,15 +25,8 @@ padding: 10px;
   background-color: white;
 }
 
-.label-copyright {
-  height: 30px;
-  width: fit-content;
-}
 
-.img-label-copyright {
-  height: 100%;
-  width: auto;
-}
+
 
 .github .fundo {
   float: inline-end;
@@ -43,6 +37,7 @@ padding: 10px;
   border-radius: 5px;
   padding:5px;
   margin-left: 10px;
+ 
   background-color:  white;
 }
 
@@ -55,6 +50,13 @@ padding: 10px;
 }
 
 .label-copyright {
+  height: 30px;
   width: fit-content;
-  margin: auto;
+  display: inline-flex;
+  float: inline-start;
+}
+.copyright-texto{
+  background-color: white;
+  text-align: center;
+  align-self: center;
 }
