@@ -16,3 +16,19 @@ footer {
 .fundo {
   background-color: white;
 }
+
+.copyright {
+  border: solid red;
+}
+
+.label-copyright {
+  border: solid blue;
+  height: 30px;
+  width: fit-content;
+
+}
+
+.img-label-copyright {
+  height: 100%;
+  width: auto;
+}
