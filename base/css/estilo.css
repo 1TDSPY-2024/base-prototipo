@@ -10,21 +10,23 @@ footer {
 }
 
 .github {
-  display: inline;
+width: fit-content;
+ 
 }
 
 .github img {
   width: 50px;
 }
 
-.fundo {
-  display: inline;
-  height: fit-content;
-  width: fit-content;
+.github .fundo {
+  float: inline-end;
+  height: 40px;
+  border-radius: 5px;
+  background-color:  white;
 }
 
 .fundo p {
-  color: white;
-  font-size: 24px;
+  color: #1E2738;
+  font-size: 22px;
   width: fit-content;
 }
