@@ -6,13 +6,25 @@
 
 footer {
   background-color: #1E2738;
-  height: 150px;
+  height: 300px;
+}
+
+.github {
+  display: inline;
 }
 
 .github img {
-  width: 30px;
+  width: 50px;
 }
 
 .fundo {
-  background-color: white;
+  display: inline;
+  height: fit-content;
+  width: fit-content;
+}
+
+.fundo p {
+  color: white;
+  font-size: 24px;
+  width: fit-content;
 }
