@@ -19,6 +19,27 @@ padding: 10px;
   width: 50px;
 }
 
+
+.fundo {
+  background-color: white;
+}
+
+.copyright {
+  border: solid red;
+}
+
+.label-copyright {
+  border: solid blue;
+  height: 30px;
+  width: fit-content;
+
+}
+
+.img-label-copyright {
+  height: 100%;
+  width: auto;
+}
+
 .github .fundo {
   float: inline-end;
   height: 40px;
@@ -36,4 +57,5 @@ padding: 10px;
   color: #1E2738;
   font-size: 22px;
   width: fit-content;
+
 }
