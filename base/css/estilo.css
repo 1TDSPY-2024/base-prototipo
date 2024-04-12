@@ -35,7 +35,6 @@ padding: 10px;
   border-radius: 5px;
   padding:5px;
   margin-left: 10px;
- 
   background-color:  white;
 }
 
@@ -60,7 +59,7 @@ padding: 10px;
   float: inline-start;
 }
 
-.label-copyright img {
+.revert-color {
   filter: invert();
 }
 
