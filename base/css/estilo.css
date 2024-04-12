@@ -5,4 +5,10 @@ header {
     background-size: cover;  
     background-position: center; 
     text-align: center;
+    color: #fff;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: inline;
   }
