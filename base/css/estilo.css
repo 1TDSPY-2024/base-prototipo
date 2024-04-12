@@ -48,6 +48,7 @@ padding: 10px;
 .centralizar {
   width: fit-content;
   margin: auto;
+  border: 3px solid red;
 }
 
 .label-copyright {
@@ -56,6 +57,10 @@ padding: 10px;
   width: fit-content;
   display: inline-flex;
   float: inline-start;
+}
+
+.label-copyright img {
+  filter: invert();
 }
 
 .copyright-texto{
