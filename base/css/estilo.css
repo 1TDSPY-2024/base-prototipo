@@ -9,14 +9,14 @@ footer {
   height: 300px;
 }
 
-.github {
+.links {
 width: fit-content;
 text-align: center;
 padding: 10px;
 
 }
 
-.github img {
+.links img {
   width: 50px;
 }
 
@@ -25,7 +25,7 @@ padding: 10px;
   background-color: white;
 }
 
-.github .fundo {
+.links .fundo {
   float: inline-end;
   height: 40px;
   width: 80px;
@@ -53,6 +53,7 @@ padding: 10px;
 }
 
 .label-copyright {
+  margin-top: 15px;
   height: 30px;
   width: fit-content;
   display: inline-flex;
