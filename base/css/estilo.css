@@ -1,3 +1,12 @@
 .obrigatorio  {
     color: red;
 }
+.container {
+    background-color:  #1E2836;
+}
+.container__titulo {
+    color: white;
+}
+ 
+
+ 
