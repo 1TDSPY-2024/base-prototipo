@@ -49,7 +49,6 @@ padding: 10px;
 .centralizar {
   width: fit-content;
   margin: auto;
-  border: 3px solid red;
 }
 
 .label-copyright {
