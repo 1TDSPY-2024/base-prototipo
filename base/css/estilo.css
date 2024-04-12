@@ -23,6 +23,7 @@ padding: 10px;
 
 .fundo {
   background-color: white;
+  font-weight: bold;
 }
 
 .links .fundo {
@@ -70,4 +71,5 @@ padding: 10px;
   padding: 7px;
   border-radius: 3px;
   margin: 0px 5px;
+  font-weight: bold; 
 }
