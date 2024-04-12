@@ -39,6 +39,7 @@ padding: 10px;
   background-color:  white;
 }
 
+
 .fundo p {
   color: #1E2738;
   font-size: 22px;
@@ -49,7 +50,6 @@ padding: 10px;
 .centralizar {
   width: fit-content;
   margin: auto;
-  border: 3px solid red;
 }
 
 .label-copyright {
@@ -68,8 +68,8 @@ padding: 10px;
   background-color: white;
   text-align: center;
   align-self: center;
-  padding: 7px;
-  border-radius: 3px;
+  padding: 3px 40px;
+  border-radius: 13px;
   margin: 0px 5px;
   font-weight: bold; 
 }
