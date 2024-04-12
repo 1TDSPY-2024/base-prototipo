@@ -3,10 +3,23 @@
 }
 .container {
     background-color:  #1E2836;
+     width: 630px;
+    text-align: center;
+   
+
 }
 .container__titulo {
     color: white;
 }
+.container__cadastro{
+  
+}
  
-
+.botao{
+    background-color: #1E2836;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
  
