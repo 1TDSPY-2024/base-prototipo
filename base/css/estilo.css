@@ -1,0 +1,8 @@
+header {
+    width: 100%;
+    background-image: url(/base/img/banner.png); 
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center; 
+    text-align: center;
+  }
