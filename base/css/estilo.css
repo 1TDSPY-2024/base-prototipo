@@ -1,0 +1,41 @@
+/*--------------------- help-----------------------------------*/
+* {
+    margin-left: 0
+;}
+.section-help {
+    background-color: rgb(27, 38, 55);
+    max-width: 710px;
+    max-height: 630px;
+    
+    padding: 20px 20px 20px ;
+    color: white;
+    position: absolute;
+  }
+  .btn-more-help {
+    display: block;
+    background-color: white;
+    color: black;
+    padding: 4px 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    float: right;
+  }
+  
+  .icon-help {
+    position: relative;
+    top: 50px;
+    right: 50px;
+    
+  }
+  
+  .titulo-help {
+      float: left;
+      font-size: 40px;
+  }
+  
+  .text-help {
+      clear: both;
+      width: 575px;
+      height: 152px;
+      text-align: justify;
+  }
