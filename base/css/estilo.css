@@ -1,41 +1,52 @@
 /*--------------------- help-----------------------------------*/
 * {
-    margin-left: 0
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 ;}
-.section-help {
+
+
+
+
+#section-help {
     background-color: rgb(27, 38, 55);
-    max-width: 710px;
+    width: 710px;
     max-height: 630px;
-    
     padding: 20px 20px 20px ;
     color: white;
-    position: absolute;
-  }
-  .btn-more-help {
-    display: block;
-    background-color: white;
-    color: black;
-    padding: 4px 8px;
-    text-decoration: none;
-    border-radius: 4px;
-    float: right;
-  }
-  
-  .icon-help {
     position: relative;
-    top: 50px;
-    right: 50px;
+
+    .btn-more-help {
+      position: absolute;
+      top: 80%;
+      right: 5%;
+      background-color: white;
+      color: black;
+      padding: 4px 8px;
+      text-decoration: none;
+      border-radius: 4px;
+      
+    }
     
+    .icon-help {
+      position: absolute;
+      top: 50px;
+      right: 1%;
+    }
+    
+    .titulo-help {
+        float: left;
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .text-help {
+        clear: both;
+        width: 575px;
+        height: 152px;
+        text-align: justify;
+    }
   }
   
-  .titulo-help {
-      float: left;
-      font-size: 40px;
-  }
-  
-  .text-help {
-      clear: both;
-      width: 575px;
-      height: 152px;
-      text-align: justify;
-  }
