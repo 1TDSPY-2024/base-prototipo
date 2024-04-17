@@ -34,7 +34,7 @@ h1{
   margin: 40px;
 }
 
-#section-help {
+#section-help, #section-about {
   background-color: rgb(27, 38, 55);
   width: 710px;
   max-height: 630px;
@@ -42,7 +42,7 @@ h1{
   color: white;
   position: relative;
 
-  .btn-more-help {
+  .btn-more-help, .btn-more-about {
     position: absolute;
     top: 80%;
     right: 5%;
@@ -54,58 +54,30 @@ h1{
     
   }
     
-  .icon-help {
+  .icon-help{
     position: absolute;
     top: 50px;
     right: 1%;
   }
+
+  .icon-about  {
+    position: absolute;
+    top: 50px;
+    right: 1%;
+    width: 40px;
+  }
   
-  .titulo-help {
-      float: left;
-      font-size: 40px;
-      margin-top: 0px;
-      margin-bottom: 10px;
+  .titulo-help, .titulo-about {
+    float: left;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
     
-  .text-help {
-      clear: both;
-      width: 575px;
-      height: 152px;
-      text-align: justify;
+  .text-help, .text-about {
+    clear: both;
+    width: 575px;
+    height: 152px;
+    text-align: justify;
   }
-}
-  
-.content {
-    display: flex;
-    flex-direction: column;
-    width: 565px;
-    padding: 20px;
-    gap: 20px;
-    color: white;
-    font-family: 'Gill Sans', sans-serif;
-    background-color: #001e27;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.header > span > img {
-    width: 30px;
-}
-
-h1 {
-    font-size: 28px;
-    text-transform: uppercase;
-}
-
-.btn-more {
-    font-family: 'Gill Sans', sans-serif;
-    padding: 2px;
-    width: 60px;    
-    align-self: flex-end;
-    border: 2px solid #000;
-    border-radius: 3px;
-    background-color: white;
 }
