@@ -29,7 +29,7 @@
 - [ Equipe Help ]
 - Lucas-A - Lucas-B - Lucas-C - Luis - Lucas-Y
 - [ Equipe About ]
-- Melissa - Lombardi - Matheus-Z - Matheus-G - Ryan Barreto
+- Melissa - Lombardi - Matheus-Z - Matheus-G - Ryan Barreto - Guilherme Alves
 - [ Equipe Cadastro ]
 - Giovane - João-P - Ian - João-G - Brendon
 - [ Equipe Rodapé ]
