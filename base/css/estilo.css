@@ -85,7 +85,7 @@ hr {
   width: 95%;
   text-align: justify;
 }
-.secao-esquerda {
+.secao-direita {
   background-color:  rgba(30, 40, 54, 0.8);
   width: 49.8%;
   text-align: center;
@@ -93,7 +93,7 @@ hr {
   height: 550px;
 }
 
-.secao-esquerda input {
+.secao-direita input {
   width: 96%;
   height: 70px;
   border: 5px solid #bdbdbd;
@@ -103,7 +103,7 @@ hr {
   padding: 5px;
 }
 
-.secao-esquerda p {
+.secao-direita p {
   color: rgb(255, 0, 0);
   text-align: left;
   margin-top: 10px;
@@ -112,12 +112,12 @@ hr {
   font-size: 18px;
 }
 
-.secao-esquerda-titulo {
+.secao-direita-titulo {
   color: white;
   padding: 10px;
 }
  
-.secao-esquerda .botao{
+.secao-direita .botao{
   background-color: rgb(27, 38, 55);
   color: white;
   border: 5px solid white;

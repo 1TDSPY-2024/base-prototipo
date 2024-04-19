@@ -24,6 +24,7 @@
     </header>
     
     <main>
+
       <section id='secao-esquerda'>
         <section id="section-help">
           <div class="cabecalho-help">
@@ -47,7 +48,9 @@
           </div>
           <a href="#" class="btn-more-help"><b>Mais...</b></a>
         </section>
+
         <hr>
+
         <section id="section-about">
           <div class="cabecalho-about">
             <h2 class="titulo-about">ABOUT</h2>
@@ -72,18 +75,16 @@
         </section>
       </section>
 
-      <section class="secao-esquerda">
-        <h2 class="secao-esquerda-titulo">CADASTRO</h2>
-        <div>
+      <aside class="secao-direita">
+        <h2 class="secao-direita-titulo">CADASTRO</h2>
+        <form>
             <input type="text" id="nome" name="nome" required placeholder="Nome completo">
-            <p class="obrigatorio">*Campo obrigatório</p>
-        </div>
-        <div>
+            <p class="texto-cadastro" for="nome">*Campo obrigatório</p>
             <input type="email" id="email" name="email" required placeholder="Email">
-            <p class="texto-cadastro">*Campo obrigatório</p>
-        </div>
+            <p class="texto-cadastro" for="email">*Campo obrigatório</p>
+        </form>
         <button type="submit" class="botao"><span>Send</span></button>
-      </section>
+      </aside>
 
     </main>
 
