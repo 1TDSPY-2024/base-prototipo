@@ -19,21 +19,6 @@ header {
     justify-content: center;
   }
 
-h1{
-  padding-top: 30px;
-}
-
-  .container1{
-    display: flex;
-    flex-direction: inline;
-    justify-content: center;
-  }
-
-  .icon{
-    width: 30px;
-    margin: 40px;
-  }
-
 #section-help {
     background-color: rgb(27, 38, 55);
     width: 710px;
@@ -56,7 +41,7 @@ h1{
     
     .icon-help {
       position: absolute;
-      top: 50px;
+      top: 20px;
       right: 1%;
     }
     
