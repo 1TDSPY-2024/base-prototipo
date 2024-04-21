@@ -19,6 +19,9 @@ padding: 10px;
 
 .links img {
   width: 50px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 5px;
 }
 
 
