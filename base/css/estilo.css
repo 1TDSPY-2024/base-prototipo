@@ -1,135 +1,8 @@
-
-* { 
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-header {
-  width: 100%;
-  background-image: url(/base/img/banner.png); 
-  background-repeat: no-repeat;
-  background-size: cover;  
-  background-position: center; 
-  text-align: center;
-  color: #fff;
-  height: fit-content;
-}
-
-h1{
-  padding: 30px 0px;
-}
-
-.icon{
-  width: 30px;
-  margin: 40px;
-}
-
-#secao-esquerda {
-  width: 49.8%;
-  background-color: rgb(27, 38, 55);
-  float: left;
-  height: 620px;
-}
-
-hr {
-  height: 6px;
-  background-color: white;
-  width: 95%;
-  margin: auto;
-}
-
-#section-help, #section-about {
-  width: 100%;
-  padding: 20px 20px 20px ;
-  color: white;
-  position: relative;
-
-  .btn-more-help, .btn-more-about {
-    position: absolute;
-    top: 80%;
-    right: 5%;
-    background-color: white;
-    color: black;
-    padding: 4px 8px;
-    text-decoration: none;
-    border-radius: 4px;
-    
-  }
-    
-  .icon-help{
-    position: absolute;
-    top: 50px;
-    right: 1%;
-  }
-
-  .icon-about  {
-    position: absolute;
-    top: 50px;
-    right: 1%;
-    width: 40px;
-  }
-  
-  .titulo-help, .titulo-about {
-    float: left;
-    font-size: 40px;
-    margin-top: 0px;
-    margin-bottom: 10px;
-  }
-    
-  .text-help, .text-about {
-    clear: both;
-    width: 575px;
-    height: 152px;
-    text-align: justify;
-  }
-}
-
-.container {
-  background-color:  rgba(30, 40, 54, 0.8);
-  width: 49.8%;
-  text-align: center;
-  float: right;
-  height: 620px;
-}
-
-.container input {
-  width: 96%;
-  height: 70px;
-  border: 5px solid #bdbdbd;
-  border-radius: 10px;
-  color: #bdbdbd;
-  font-size: 20px;
-  padding: 5px;
-}
-
-.container p {
-  color: rgb(255, 0, 0);
-  text-align: left;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  margin-left: 20px;
-  font-size: 18px;
-}
-
-.container h1 {
-  color: white;
-}
- 
-.botao{
-  background-color: #1E2836;
-  color: white;
-  border: 5px solid white;
-  border-radius: 10px;  
-  font-size: 30px;
-  padding: 25px 70px;
-}
-
-
 * {
   padding: 0;
   margin: 0;
   font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 footer {
@@ -161,7 +34,6 @@ padding: 10px;
   justify-content: center;
   text-align: center;
   border-radius: 5px;
-  padding:5px;
   margin-left: 10px;
   background-color:  white;
 }
