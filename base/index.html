@@ -3,40 +3,131 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exemplo de Cabeçalho com Imagem de Fundo</title>
     <link rel="stylesheet" href="./css/estilo.css" />
+    <title>INICIO</title>
   </head>
 
   <body>
-    
     <header id="cabecalho">
-        <h1>PROTÓTIPO</h1> 
-      <div class="container1">
-        <a href="" class="icon">
+      <h1>PROTÓTIPO</h1> 
+      <div class="container-cabecalho">
+        <a href="#" class="icon">
           <img src="./img/pergunta-header.png" alt="Caixa de mensagem com interrogação dentro">
         </a>
-        <a href="" class="icon">
+        <a href="#" class="icon">
           <img src="./img/exclamacao-header.png" alt="Caixa de mensagem com um i dentro">
         </a>
-        <a href="" class="icon">
+        <a href="#" class="icon">
           <img src="./img/mensagem-header.png" alt="Envelope de carta">
         </a>
       </div>
     </header>
     
     <main>
-      <section>
 
-      </section>
-      <section>
+      <section id='secao-esquerda'>
+        <section id="section-help">
+          <div class="cabecalho-help">
+            <h2 class="titulo-help">HELP</h2>
+            <a href="#">
+              <img
+                src="./img/help-img1-48x48.png"
+                alt="imagem de ajuda"
+                class="icon-help"
+              />
+            </a>
+          </div>
+          <div class="text-help">
+            <p>
+              Lorem Ipsum is simplyy dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text ever
+              since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only
+              five centuries, but also the leap into electronic
+            </p>
+          </div>
+          <a href="#" class="btn-more-help"><b>Mais...</b></a>
+        </section>
 
+        <hr>
+
+        <section id="section-about">
+          <div class="cabecalho-about">
+            <h2 class="titulo-about">ABOUT</h2>
+            <a href="#">
+              <img
+                src="./img/img-about.png"
+                alt="imagem de ajuda"
+                class="icon-about"
+              />
+            </a>
+          </div>
+          <div class="text-help">
+            <p>
+              Lorem Ipsum is simplyy dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text ever
+              since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book. It has survived not only
+              five centuries, but also the leap into electronic
+            </p>
+          </div>
+          <a href="#" class="btn-more-about"><b>Mais...</b></a>
+        </section>
       </section>
+
+      <aside class="secao-direita">
+        <h2 class="secao-direita-titulo">CADASTRO</h2>
+        <form>
+            <input type="text" id="nome" name="nome" required placeholder="Nome completo">
+            <p class="texto-cadastro" for="nome">*Campo obrigatório</p>
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <p class="texto-cadastro" for="email">*Campo obrigatório</p>
+        </form>
+        <button type="submit" class="botao"><span>Send</span></button>
+      </aside>
+
     </main>
 
     <footer>
+       <div class="links">
+        <img src="./img/github.png" alt="" />
+        <a href="https://github.com/"target="_blank">
+          <span class="fundo">
+            <p>GitHub</p>
+          </span>
+        </a>
+      </div>
+      <div class="links">
+        <a href="https://www.google.com/" target="_blank">            
+          <span class="fundo">
+            <p>Google</p>
+          </span>
+          <img src="./img/google.svg" class="revert-color" alt="" />
+        </a>
+      </div>
+      <div class="links">
+        <a href="https://www.twitter.com" target="_blank">
+          <span class="fundo">
+            <p>Twitter</p>
+          </span>
+        </a> 
+        <img
+          src="./img/img-twitter-logo.svg"
+          class="revert-color"
+          alt=""
+        />
+      </div>
+      <div class="centralizar">
+        <div class="label-copyright">
+          <img
+            class="revert-color"
+            src="./img/icons8-copyright-60.png"
+            alt="letra c"
+          />
+          <p class="copyright-texto">Copyright - PROTÓTIPO 2024</p>
+        </div>
+      </div>
 
     </footer>
-   
   </body>
 </html>
-
