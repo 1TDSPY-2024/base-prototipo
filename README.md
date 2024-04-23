@@ -20,4 +20,17 @@
  ## Avançado
   - [ ] Criar um texto de aviso abaixo do campo  mensagem, informando que o campo  é   obrigatório.
   - [ ] Adicionar uma cor vermelha ao texto.
+  - 
+  
+## Equipes
 
+- [ Equipe cabeçalho ]
+- Augusto - Arthur - Diego - David - Felipe-S - Felipe-L
+- [ Equipe Help ]
+- Lucas-A - Lucas-B - Lucas-C - Luis - Lucas-Y
+- [ Equipe About ]
+- Melissa - Lombardi - Matheus-Z - Matheus-G - Ryan - Guilherme Alves
+- [ Equipe Cadastro ]
+- Giovane - João-P - Ian - João-G - Brendon
+- [ Equipe Rodapé ]
+- Vitor-H - Victor-N - Vinicius-L - Vinicius-M - Vinicius-R
